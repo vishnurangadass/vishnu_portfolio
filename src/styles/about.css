@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --light-color: #a6b9d3;
+  --text-light-color: #f3f7fc;
+  --text-dark-color: #1d2534;
+  --border-color: #f35c1c;
+  --body-color:#1d2534;
+  --box-shadow:#101010;
+  --table-heading:#24262b;
+  --table-content: #4D4D4D;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+.vishnu{
+  width: 400px;
+  height: 400px;
+}
+.profiletitle{
+  font-size: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  color:var(--border-color);
+  text-transform: uppercase;
+}
+.about {
+  font-size: medium;
+  align-items: center;
+}
+.greetings {
+  font-size: 3rem;
+  color: var(--border-color);
+}
+.greetings:hover {
+  color: var(--text-light-color);
+}
+.profilecard {
+    background-color: var(--body-color);
+    border-color: var(--border-color);
+    width: 50rem;
+  }
+  .card-text {
+    color: var(--text-light-color);
+  }
+  .card-title{
+    color: var(--border-color);
+    font-size: 1.5rem; 
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .summary-card{
+    border-radius: 2px;
+    border: var(--border-color)
+  }
+@media (max-width: 768px) {
+  .profiletitle{
+    font-size: 2rem
+  }
+  .summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card{
+    width: 20rem !important;
+  }
+  .vishnu{
+    width:300px;
+    height:400px;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profilecard {
+    width: 20rem;
+  }
+  
+}

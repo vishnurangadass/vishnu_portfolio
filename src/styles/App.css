@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --light-color: #a6b9d3;
+  --text-light-color: #f3f7fc;
+  --text-dark-color: #1d2534;
+  --border-color: #f35c1c;
+  --body-color:#1d2534;
+  --box-shadow:#101010;
+  --table-heading:#24262b;
+  --table-content: #4D4D4D;
+}
+
+.spinner-header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background: var(--body-color);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+

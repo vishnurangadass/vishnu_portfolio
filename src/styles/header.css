@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --light-color: #a6b9d3;
+  --text-light-color: #f3f7fc;
+  --text-dark-color: #1d2534;
+  --border-color: #f35c1c;
+  --body-color:#1d2534;
+  --box-shadow:#101010;
+  --table-heading:#24262b;
+  --table-content: #4D4D4D;
+}
+.header {
+  display: flex;
+  width: max-content;
+  flex-direction: row;
+  background: transparent;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.header :hover {
+  color: var(--border-color);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  background-color: var(--text-light-color);
+  height: 45px;
+  border-radius: 5px;
+}
+.nav {
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text-light-color);
+}
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .header :hover {
+    color: var(--border-color);
+    align-items: center;
+    background-color: var(--text-light-color);
+    height: 100px;
+    border-radius: 5px;
+  }
+}

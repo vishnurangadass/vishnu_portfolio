@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --light-color: #a6b9d3;
+  --text-light-color: #f3f7fc;
+  --text-dark-color: #1d2534;
+  --border-color: #f35c1c;
+  --body-color:#1d2534;
+  --box-shadow:#101010;
+  --table-heading:#24262b;
+  --table-content: #4D4D4D;
+}
+.skills {
+  font-size: medium;
+  color: var(--text-light-color);
+}
+
+.main-cards:hover {
+  font-size: larger;
+}
+.card-text {
+  color: var(--text-light-color);
+}
+
+.cards {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.progress-bar {
+  background-color: var(--border-color);
+}
+.main-cards {
+  padding: 4px;
+}
+.card-img-top {
+  height: 160px;
+}
+.card {
+  background-color: var(--table-content);
+  width: 18rem;
+  border-color: var(--border-color);
+}
+@media (max-width: 768px) {
+  .cards {
+    display: flex !important;
+    flex-direction: column;
+  }
+}

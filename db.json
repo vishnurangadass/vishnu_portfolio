@@ -1,0 +1,68 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "content": "As a Frontend Developer, I specialize in crafting compelling and user-friendly interfaces for websites and web applications, demonstrating proficiency in translating design concepts into responsive layouts using HTML, CSS, and JavaScript. Collaborating effectively with designers and backend developers, I ensure seamless integration of frontend elements. My expertise extends to guaranteeing cross-browser compatibility, optimal performance, and mobile responsiveness. I am committed to maintaining high standards in code quality through thorough testing and debugging, utilizing version control systems like Git."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institute": "Dr.N.G.P. Institue of Technology",
+      "percentage": 85.75,
+      "course": "B.E. in Computer Science and Engineering",
+      "year":"2022"
+    },
+    {
+      "id": 2,
+      "institute": "Arulmurugan Polytechnic College",
+      "percentage": 95,
+      "course": "Diploma in Computer Science and Engineering",
+      "year":"2019"
+    },
+    {
+      "id": 3,
+      "institute": "Sri Kamatchiamman Matriculation School",
+      "percentage": 89,
+      "course": "SSLC",
+      "year":"2016"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "skill": "HTML",
+      "widths": 50,
+      "bgcolor": "#FE7A36",
+      "img": "https://p.kindpng.com/picc/s/23-237381_java-html-language-logo-png-transparent-png.png"
+    },
+    {
+      "id": 2,
+      "skill": "CSS 3",
+      "widths": 80,
+      "bgcolor": "#40A2D8",
+      "img": "https://e1.pxfuel.com/desktop-wallpaper/447/45/desktop-wallpaper-css-3-logo-css.jpg"
+    },
+    {
+      "id": 3,
+      "skill": "JavaScript",
+      "widths": 40,
+      "bgcolor": "#FDE767",
+      "img": "https://rootstack.com/static/6ef3e330fb4beacffc683077049b8afa/javascript%20-%20Lg%20-%202-100.jpg"
+    },
+    {
+      "id": 4,
+      "skill": "TypeScript",
+      "widths": 30,
+      "bgcolor": "#4942E4",
+      "img": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fusv4n4x9y62l1k8r18h6.png"
+    },
+    {
+      "id": 5,
+      "skill": "React",
+      "widths": 80,
+      "bgcolor": "#52D3D8",
+      "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*3LG5LJj8_GhgI4HdE4NIYQ.jpeg"
+    }
+  ]
+}
