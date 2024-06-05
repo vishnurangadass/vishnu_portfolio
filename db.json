@@ -11,21 +11,21 @@
       "institute": "Dr.N.G.P. Institue of Technology",
       "percentage": 85.75,
       "course": "B.E. in Computer Science and Engineering",
-      "year":"2022"
+      "year": "2022"
     },
     {
       "id": 2,
       "institute": "Arulmurugan Polytechnic College",
       "percentage": 95,
       "course": "Diploma in Computer Science and Engineering",
-      "year":"2019"
+      "year": "2019"
     },
     {
       "id": 3,
       "institute": "Sri Kamatchiamman Matriculation School",
       "percentage": 89,
       "course": "SSLC",
-      "year":"2016"
+      "year": "2016"
     }
   ],
   "skills": [

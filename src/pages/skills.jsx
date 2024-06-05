@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import vscode from '../assests/vscode.png'
-import jira from '../assests/jira.png'
-import bitbucket from '../assests/bitbucket.png'
-import git from '../assests/git.png'
+import vscode from "../assests/vscode.png";
+import jira from "../assests/jira.png";
+import bitbucket from "../assests/bitbucket.png";
+import git from "../assests/git.png";
 
-import '../styles/skills.css'
-
+import "../styles/skills.css";
 
 export const Skills = () => {
   const [skills, setSkills] = useState([]);
@@ -25,11 +24,8 @@ export const Skills = () => {
 
   const technicalSkills = () => {
     return skills.map((mes) => (
-      <div className="main-cards"  key={mes.id}>
-        <div
-          className="card"
-         
-        >
+      <div className="main-cards" key={mes.id}>
+        <div className="card">
           <img src={mes.img} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text">{mes.skill}</p>
@@ -52,42 +48,62 @@ export const Skills = () => {
       </div>
     ));
   };
-  
-  const toolsAndPractices = () => {
-    return  (
-      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={vscode} className="d-blockw-50" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={bitbucket} className="d-block w-50" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={git} className="d-block w-50" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={jira} className="d-block w-50" alt="..." />
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-    )}
 
+  const toolsAndPractices = () => {
+    return (
+      <div
+        id="carouselExampleControls"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={vscode} className="d-blockw-50" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={bitbucket} className="d-block w-50" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={git} className="d-block w-50" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={jira} className="d-block w-50" alt="..." />
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+    );
+  };
 
   return (
     <div className="skills">
       <strong>Key Skills Technical Skills :</strong>
       <div className="cards">{technicalSkills()}</div>
       <strong>Tools & Practices :</strong>
-      <div >{toolsAndPractices()}</div>
+      <div>{toolsAndPractices()}</div>
       <strong>Tools & Practices :</strong>
       <ul>
         <li>VS Code</li>

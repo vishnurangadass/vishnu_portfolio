@@ -1,16 +1,10 @@
-import React, { useState, useEffect, Suspense, lazy } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "axios";
 
 import "../styles/about.css";
 import vishnu from "../assests/vishnuimg.png";
-import { Spinner } from "../helpers/Spinner";
-
-const Experiencesummary = lazy(() =>
-  delayForDemo(import("../components/experienceSummary"))
-);
-const Educationtable = lazy(() =>
-  delayForDemo(import("../components/educationTable"))
-);
+import Experiencesummary from '../components/Experiencesummary';
+import Educationtable from "../components/Educationtable";
 
 export const About = () => {
   const [greetings, setGreetings] = useState("");
@@ -42,13 +36,6 @@ export const About = () => {
     <div className="about">
       
       <div className="summary">
-      <Suspense
-          fallback={
-            <div className="spinner-header">
-              <Spinner />
-            </div>
-          }
-        >
         <p className="greetings">Hi there! {greetings}</p>
         <div className="card-body">
           <div className="profile">
@@ -70,13 +57,7 @@ export const About = () => {
        
           <Educationtable />
           <Experiencesummary />
-        </Suspense>
       </div>
     </div>
   );
 };
-function delayForDemo(promise) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, 2000);
-  }).then(() => promise);
-}

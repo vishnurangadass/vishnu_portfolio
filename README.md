@@ -13,7 +13,7 @@ using `npm start`
 # Installed packages
 
 json-server `npm i json-server`
-Bootrsap `npm i bootstrap`
+Bootrsap `npm i bootstrap@5.3.3`
 axios `npm i axios`
 font `Google font`
 code formatter `prettier`
