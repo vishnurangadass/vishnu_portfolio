@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import React from "react";
 
-import { About } from "../pages/about";
-import { Projects } from "../pages/projects";
-import { Hobbies } from "../pages/hobbies";
-import { Skills } from "../pages/skills";
+import { About } from "../pages/About";
+import { Projects } from "../pages/Projects";
+import { Hobbies } from "../pages/Hobbies";
+import { Skills } from "../pages/Skills";
 import "../styles/header.css"
 
 export const Header = () => {

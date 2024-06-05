@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import '../styles/projects.css'
+import "../styles/projects.css";
 
 export const Projects = () => {
-  return (
-    <div className='projects'>Projects</div>
-  )
-}
+  return <div className="projects">Projects</div>;
+};

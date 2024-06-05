@@ -5,31 +5,31 @@
   --text-light-color: #f3f7fc;
   --text-dark-color: #1d2534;
   --border-color: #f35c1c;
-  --body-color:#1d2534;
-  --box-shadow:#101010;
-  --table-heading:#24262b;
-  --table-content: #4D4D4D;
+  --body-color: #1d2534;
+  --box-shadow: #101010;
+  --table-heading: #24262b;
+  --table-content: #4d4d4d;
 }
-.accordion{
-    width:800px;
-    padding: 10px;
+.accordion {
+  width: 800px;
+  padding: 10px;
 }
-.accordion-button{
-    background-color: var(--table-content);
-    font-size: 14px;
-    color: var(--text-light-color);
+.accordion-button {
+  background-color: var(--table-content);
+  font-size: 14px;
+  color: var(--text-light-color);
 }
-.accordion-button:not(.collapsed){
-    background-color: var(--table-heading);
-    font-size: 14px;
-    color: var(--border-color);
+.accordion-button:not(.collapsed) {
+  background-color: var(--table-heading);
+  font-size: 14px;
+  color: var(--border-color);
 }
 .accordion-button:not(.collapsed)::after {
-    background-color: var(--text-light-color);
+  background-color: var(--text-light-color);
 }
 @media (max-width: 768px) {
-    .accordion{
-        width:300px;
-        padding: 10px;
-    }
+  .accordion {
+    width: 300px;
+    padding: 10px;
+  }
 }

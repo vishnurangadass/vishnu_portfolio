@@ -5,10 +5,10 @@
   --text-light-color: #f3f7fc;
   --text-dark-color: #1d2534;
   --border-color: #f35c1c;
-  --body-color:#1d2534;
-  --box-shadow:#101010;
-  --table-heading:#24262b;
-  --table-content: #4D4D4D;
+  --body-color: #1d2534;
+  --box-shadow: #101010;
+  --table-heading: #24262b;
+  --table-content: #4d4d4d;
 }
 .skills {
   font-size: medium;

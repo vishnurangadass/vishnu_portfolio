@@ -5,54 +5,55 @@
   --text-light-color: #f3f7fc;
   --text-dark-color: #1d2534;
   --border-color: #f35c1c;
-  --body-color:#1d2534;
-  --box-shadow:#101010;
-  --table-heading:#24262b;
-  --table-content: #4D4D4D;
+  --body-color: #1d2534;
+  --box-shadow: #101010;
+  --table-heading: #24262b;
+  --table-content: #4d4d4d;
 }
 table {
-	width: 800px;
-	border-collapse: collapse;
+  width: 800px;
+  border-collapse: collapse;
   margin-bottom: 15px;
-	overflow: hidden;
-	box-shadow: 0 0 20px var(--box-shadow)
+  overflow: hidden;
+  box-shadow: 0 0 20px var(--box-shadow);
 }
 
 th,
 td {
-	padding: 15px;
-	background-color: var(--table-content);
-	color: var(--text-light-color);
+  padding: 15px;
+  background-color: var(--table-content);
+  color: var(--text-light-color);
 }
 
 th {
-	text-align: left;
+  text-align: left;
 }
 
 thead {
-	th {
-		background-color:var(--table-heading);
-    color:var(--border-color);
-	}
+  th {
+    background-color: var(--table-heading);
+    color: var(--border-color);
+  }
 }
 
 tbody {
-	tr {
-		&:hover {
-			background-color: var(--border-color)
-		}
-	}
+  tr {
+    &:hover {
+      background-color: var(--border-color);
+    }
+  }
 }
 
 @media (max-width: 768px) {
   table {
     width: 10px;
-    padding:10px;
+    padding: 10px;
   }
   td {
     padding: 5px;
   }
-  thead, tbody{
+  thead,
+  tbody {
     font-size: 10px;
   }
 }

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import '../styles/hobbies.css'
+import "../styles/hobbies.css";
 
 export const Hobbies = () => {
-  return (
-    <div className='hobbies'>Hobbies</div>
-  )
-}
+  return <div className="hobbies">Hobbies</div>;
+};
